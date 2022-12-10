@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvRate2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/textview22" />
+
+    <EditText
+        android:id="@+id/editNewRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter tax Rate "
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+
+</RelativeLayout>
